@@ -8,13 +8,15 @@
 
 `@babel/polyfill`
 
-`es2016,es2017,es2018,es2019,es2021`
+`es2016`,`es2017`,`es2018`,`es2019`,`es2021`
 
 `Element.remove`
 
 `Array.prototype.flat`
 
 `CustomEvent`,`Event`
+
+`EventTarget`
 
 #### 软件架构
 
