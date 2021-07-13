@@ -2,13 +2,15 @@
 
 #### 介绍
 
-常用的 IE11 的 polyfills
+常用的 IE11 的 `polyfills`
 
-包含了以下polyfills
+包含了以下`polyfills`
 
-@babel/polyfill
+`@babel/polyfill`
 
-es2016,es2017,es2018,es2019,es2021
+`es2016,es2017,es2018,es2019,es2021`
+
+`Element.remove`
 
 #### 软件架构
 
