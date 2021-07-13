@@ -6,7 +6,7 @@
 
 包含了以下`polyfills`
 
-`@babel/polyfill`
+`@babel/polyfill`(`regenerator-runtime/runtime`,`core-js/stable`)
 
 `es2016`,`es2017`,`es2018`,`es2019`,`es2021`
 
