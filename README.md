@@ -32,11 +32,21 @@
 
 #### 安装教程
 
+## 直接从 cdn 导入
+
+https://cdn.jsdelivr.net/npm/@masx200/ie11-usual-ployfills/dist/index.js
+
+## 本地安装
+
 ```shell
 yarn add @masx200/ie11-usual-ployfills
 ```
 
 #### 使用说明
+
+```js
+require("@masx200/ie11-usual-ployfills");
+```
 
 ```js
 import "@masx200/ie11-usual-ployfills";
