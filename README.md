@@ -8,7 +8,7 @@
 
 `@babel/polyfill`(`regenerator-runtime/runtime`,`core-js/stable`)
 
-`es2016`,`es2017`,`es2018`,`es2019`,`es2021`
+`es2015`,`es2016`,`es2017`,`es2018`,`es2019`,`es2021`
 
 `Element.prototype.remove`
 
