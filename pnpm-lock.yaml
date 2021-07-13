@@ -9,7 +9,9 @@ specifiers:
   '@rollup/plugin-commonjs': ^19.0.0
   '@rollup/plugin-json': ^4.1.0
   '@rollup/plugin-node-resolve': ^13.0.0
+  core-js-pure: ^3.15.2
   element-remove: ^1.0.4
+  event-target-shim: ^6.0.2
   prettier: ^2.3.2
   rollup: ^2.53.1
   rollup-plugin-terser: ^7.0.2
@@ -23,7 +25,9 @@ devDependencies:
   '@rollup/plugin-commonjs': 19.0.0_rollup@2.53.1
   '@rollup/plugin-json': 4.1.0_rollup@2.53.1
   '@rollup/plugin-node-resolve': 13.0.0_rollup@2.53.1
+  core-js-pure: 3.15.2
   element-remove: 1.0.4
+  event-target-shim: 6.0.2
   prettier: 2.3.2
   rollup: 2.53.1
   rollup-plugin-terser: 7.0.2_rollup@2.53.1
@@ -3791,6 +3795,11 @@ packages:
       semver: 7.0.0
     dev: true
 
+  /core-js-pure/3.15.2:
+    resolution: {integrity: sha512-D42L7RYh1J2grW8ttxoY1+17Y4wXZeKe7uyplAI3FkNQyI5OgBIAjUfFiTPfL1rs0qLpxaabITNbjKl1Sp82tA==}
+    requiresBuild: true
+    dev: true
+
   /core-js/2.6.12:
     resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==}
     deprecated: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
@@ -4578,6 +4587,11 @@ packages:
   /etag/1.8.1:
     resolution: {integrity: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=}
     engines: {node: '>= 0.6'}
+    dev: true
+
+  /event-target-shim/6.0.2:
+    resolution: {integrity: sha512-8q3LsZjRezbFZ2PN+uP+Q7pnHUMmAOziU2vA2OwoFaKIXxlxl38IylhSSgUorWu/rf4er67w0ikBqjBFk/pomA==}
+    engines: {node: '>=10.13.0'}
     dev: true
 
   /eventemitter3/4.0.7:
