@@ -20,6 +20,8 @@
 
 `fetch`,`Headers`,`Response`,`Request`
 
+`NodeList.prototype.forEach`
+
 #### 软件架构
 
 软件架构说明
