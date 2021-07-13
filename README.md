@@ -10,7 +10,7 @@
 
 `es2016`,`es2017`,`es2018`,`es2019`,`es2021`
 
-`Element.remove`
+`Element.prototype.remove`
 
 `Array.prototype.flat`
 
@@ -21,6 +21,10 @@
 `fetch`,`Headers`,`Response`,`Request`
 
 `NodeList.prototype.forEach`
+
+`Object.fromEntries`
+
+`URLSearchParams`,`URL`
 
 #### 软件架构
 
