@@ -12,6 +12,10 @@
 
 `Element.remove`
 
+`Array.prototype.flat`
+
+`CustomEvent`,`Event`
+
 #### 软件架构
 
 软件架构说明
