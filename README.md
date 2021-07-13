@@ -18,6 +18,8 @@
 
 `EventTarget`
 
+`fetch`,`Headers`,`Response`,`Request`
+
 #### 软件架构
 
 软件架构说明
