@@ -14,7 +14,11 @@ specifiers:
   event-target-shim: ^6.0.2
   prettier: ^2.3.2
   rollup: ^2.53.1
+  rollup-plugin-remote: ^0.1.0
   rollup-plugin-terser: ^7.0.2
+
+dependencies:
+  rollup-plugin-remote: 0.1.0
 
 devDependencies:
   '@babel/core': 7.14.6
@@ -6515,6 +6519,11 @@ packages:
       tslib: 2.3.0
     dev: true
 
+  /node-fetch/2.6.1:
+    resolution: {integrity: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==}
+    engines: {node: 4.x || >=6.0.0}
+    dev: false
+
   /node-forge/0.10.0:
     resolution: {integrity: sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==}
     engines: {node: '>= 6.0.0'}
@@ -8500,6 +8509,12 @@ packages:
     dependencies:
       glob: 7.1.7
     dev: true
+
+  /rollup-plugin-remote/0.1.0:
+    resolution: {integrity: sha512-d636oiq/RQxu/JbXSGTB0JyTJJjkYTJz1Uee7RWoK+5ec8EoB0/hQ1ASB3UO2kTe71emOV0ENWrMePv4MID1mg==}
+    dependencies:
+      node-fetch: 2.6.1
+    dev: false
 
   /rollup-plugin-terser/7.0.2_rollup@2.53.1:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
