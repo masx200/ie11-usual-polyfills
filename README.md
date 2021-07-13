@@ -4,6 +4,12 @@
 
 常用的 IE11 的 polyfills
 
+包含了以下polyfills
+
+@babel/polyfill
+
+es2016,es2017,es2018,es2019,es2021
+
 #### 软件架构
 
 软件架构说明
