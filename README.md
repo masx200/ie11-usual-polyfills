@@ -1,11 +1,12 @@
 # ie11-usual-ployfills
 
 #### 介绍
-常用的IE11的polyfills
+
+常用的 IE11 的 polyfills
 
 #### 软件架构
-软件架构说明
 
+软件架构说明
 
 #### 安装教程
 
@@ -25,5 +26,3 @@
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
-
