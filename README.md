@@ -50,6 +50,8 @@ yarn add @masx200/ie11-usual-ployfills
 require("@masx200/ie11-usual-ployfills");
 ```
 
+或者
+
 ```js
 import "@masx200/ie11-usual-ployfills";
 ```
