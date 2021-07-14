@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': ^7.14.6
   '@babel/polyfill': ^7.12.1
   '@babel/preset-env': ^7.14.7
-  '@masx200/webpack-react-vue-spa-awesome-config': ^3.3.2
+  '@masx200/webpack-react-vue-spa-awesome-config': ^3.3.5
   '@rollup/plugin-babel': ^5.3.0
   '@rollup/plugin-commonjs': ^19.0.0
   '@rollup/plugin-json': ^4.1.0
@@ -21,7 +21,7 @@ devDependencies:
   '@babel/core': 7.14.6
   '@babel/polyfill': 7.12.1
   '@babel/preset-env': 7.14.7_@babel+core@7.14.6
-  '@masx200/webpack-react-vue-spa-awesome-config': 3.3.2
+  '@masx200/webpack-react-vue-spa-awesome-config': 3.3.5
   '@rollup/plugin-babel': 5.3.0_@babel+core@7.14.6+rollup@2.53.1
   '@rollup/plugin-commonjs': 19.0.0_rollup@2.53.1
   '@rollup/plugin-json': 4.1.0_rollup@2.53.1
@@ -2262,8 +2262,8 @@ packages:
       '@hapi/hoek': 8.5.1
     dev: true
 
-  /@masx200/webpack-react-vue-spa-awesome-config/3.3.2:
-    resolution: {integrity: sha512-VltAsrBwp0gK95tsjcIGMszOeJH7MWSICnIcxZVA5rdHkvzu4BrXbIT4rcimNHoZgwR+UlX8G5qdSQ94uHHxpg==}
+  /@masx200/webpack-react-vue-spa-awesome-config/3.3.5:
+    resolution: {integrity: sha512-OvbNOxY45NB9tQJ4gTkWtgno5HGmVPUGsJ8fE7b0YnSrgAOOyHLkDHHgN86O/3OzFmQQTeRCUthY9maO999obg==}
     hasBin: true
     dependencies:
       '@babel/core': 7.14.6
@@ -2291,7 +2291,7 @@ packages:
       browserslist: 4.16.6
       clean-webpack-plugin: 4.0.0-alpha.0_webpack@5.44.0
       copy-webpack-plugin: 8.1.1_webpack@5.44.0
-      css-loader: 5.2.6_webpack@5.44.0
+      css-loader: 5.2.7_webpack@5.44.0
       cssnano: 5.0.6_postcss@8.2.15
       fast-sass-loader: 2.0.0_sass@1.32.12+webpack@5.44.0
       file-loader: 6.2.0_webpack@5.44.0
@@ -2322,7 +2322,7 @@ packages:
       to-string-loader: 1.1.6
       unicode-loader: 1.0.7
       url-loader: 4.1.1_file-loader@6.2.0+webpack@5.44.0
-      vue-loader: 15.9.7_cb694227091a9e7174f25973055cbd61
+      vue-loader: 15.9.7_a5abbb7d1053e8ecc4524b626f1c4757
       vue-style-loader: 4.1.3
       vue-template-compiler: 2.6.14
       webpack: 5.44.0_webpack-cli@4.7.2
@@ -2551,8 +2551,8 @@ packages:
     resolution: {integrity: sha512-dvMUE/m2LbXPwlvVuzCyslTEtQ2ZwuuFClDrOQ6mp2CenCg971719PTILZ4I6bTP27xfFFc+o7x2TkLuun/MPw==}
     dev: true
 
-  /@types/node/16.3.1:
-    resolution: {integrity: sha512-N87VuQi7HEeRJkhzovao/JviiqKjDKMVKxKMfUvSKw+MbkbW8R0nA3fi/MQhhlxV2fQ+2ReM+/Nt4efdrJx3zA==}
+  /@types/node/16.3.2:
+    resolution: {integrity: sha512-jJs9ErFLP403I+hMLGnqDRWT0RYKSvArxuBVh2veudHV7ifEC1WAmjJADacZ7mRbA2nWgHtn8xyECMAot0SkAw==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -2592,7 +2592,7 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 16.3.1
+      '@types/node': 16.3.2
     dev: true
 
   /@types/scheduler/0.16.2:
@@ -3071,7 +3071,7 @@ packages:
     hasBin: true
     dependencies:
       browserslist: 4.16.6
-      caniuse-lite: 1.0.30001243
+      caniuse-lite: 1.0.30001244
       colorette: 1.2.2
       normalize-range: 0.1.2
       num2fraction: 1.2.2
@@ -3334,9 +3334,9 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001243
+      caniuse-lite: 1.0.30001244
       colorette: 1.2.2
-      electron-to-chromium: 1.3.774
+      electron-to-chromium: 1.3.775
       escalade: 3.1.1
       node-releases: 1.1.73
     dev: true
@@ -3440,13 +3440,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.16.6
-      caniuse-lite: 1.0.30001243
+      caniuse-lite: 1.0.30001244
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-lite/1.0.30001243:
-    resolution: {integrity: sha512-vNxw9mkTBtkmLFnJRv/2rhs1yufpDfCkBZexG3Y0xdOH2Z/eE/85E4Dl5j1YUN34nZVsSp6vVRFQRrez9wJMRA==}
+  /caniuse-lite/1.0.30001244:
+    resolution: {integrity: sha512-Wb4UFZPkPoJoKKVfELPWytRzpemjP/s0pe22NriANru1NoI+5bGNxzKtk7edYL8rmCWTfQO8eRiF0pn1Dqzx7Q==}
     dev: true
 
   /caseless/0.12.0:
@@ -3925,8 +3925,8 @@ packages:
       postcss-selector-parser: 5.0.0
     dev: true
 
-  /css-loader/5.2.6_webpack@5.44.0:
-    resolution: {integrity: sha512-0wyN5vXMQZu6BvjbrPdUJvkCzGEO24HC7IS7nW4llc6BBFC+zwR9CKtYGv63Puzsg10L/o12inMY5/2ByzfD6w==}
+  /css-loader/5.2.7_webpack@5.44.0:
+    resolution: {integrity: sha512-Q7mOvpBNBG7YrVGMxRxcBJZFL75o+cH2abNASdibkj/fffYD8qWbInZrD0S9ccI6vZclF3DsHE7njGlLtaHbhg==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       webpack: ^4.27.0 || ^5.0.0
@@ -4424,8 +4424,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /electron-to-chromium/1.3.774:
-    resolution: {integrity: sha512-Fggh17Q1yyv1uMzq8Qn1Ci58P50qcRXMXd2MBcB9sxo6rJxjUutWcNw8uCm3gFWMdcblBO6mDT5HzX/RVRRECA==}
+  /electron-to-chromium/1.3.775:
+    resolution: {integrity: sha512-EGuiJW4yBPOTj2NtWGZcX93ZE8IGj33HJAx4d3ouE2zOfW2trbWU+t1e0yzLr1qQIw81++txbM3BH52QwSRE6Q==}
     dev: true
 
   /element-remove/1.0.4:
@@ -5599,8 +5599,8 @@ packages:
       rgba-regex: 1.0.0
     dev: true
 
-  /is-core-module/2.4.0:
-    resolution: {integrity: sha512-6A2fkfq1rfeQZjxrZJGerpLCTHRNEBiSgnu0+obeJpEPZRUooHgsizvzv0ZjJwOz3iWIHdJtVWJ/tmPr3D21/A==}
+  /is-core-module/2.5.0:
+    resolution: {integrity: sha512-TXCMSDsEHMEEZ6eCA8rwRDbLu55MRGmrctljsBX/2v1d9/GzqHOxW5c5oPSgrUt2vBFXebu9rGqckXGPWOlYpg==}
     dependencies:
       has: 1.0.3
     dev: true
@@ -5848,7 +5848,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 16.3.1
+      '@types/node': 16.3.2
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true
@@ -7786,7 +7786,7 @@ packages:
     dependencies:
       autoprefixer: 9.8.6
       browserslist: 4.16.6
-      caniuse-lite: 1.0.30001243
+      caniuse-lite: 1.0.30001244
       css-blank-pseudo: 0.1.4
       css-has-pseudo: 0.10.0
       css-prefers-color-scheme: 3.1.1
@@ -8134,7 +8134,7 @@ packages:
   /querystring/0.2.0:
     resolution: {integrity: sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=}
     engines: {node: '>=0.4.x'}
-    deprecated: The
+    deprecated: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
     dev: true
 
   /querystringify/2.2.0:
@@ -8460,7 +8460,7 @@ packages:
   /resolve/1.20.0:
     resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
     dependencies:
-      is-core-module: 2.4.0
+      is-core-module: 2.5.0
       path-parse: 1.0.7
     dev: true
 
@@ -9612,7 +9612,7 @@ packages:
     resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
     dev: true
 
-  /vue-loader/15.9.7_cb694227091a9e7174f25973055cbd61:
+  /vue-loader/15.9.7_a5abbb7d1053e8ecc4524b626f1c4757:
     resolution: {integrity: sha512-qzlsbLV1HKEMf19IqCJqdNvFJRCI58WNbS6XbPqK13MrLz65es75w392MSQ5TsARAfIjUw+ATm3vlCXUJSOH9Q==}
     peerDependencies:
       cache-loader: '*'
@@ -9626,7 +9626,7 @@ packages:
         optional: true
     dependencies:
       '@vue/component-compiler-utils': 3.2.2
-      css-loader: 5.2.6_webpack@5.44.0
+      css-loader: 5.2.7_webpack@5.44.0
       hash-sum: 1.0.2
       loader-utils: 1.4.0
       vue-hot-reload-api: 2.3.4
