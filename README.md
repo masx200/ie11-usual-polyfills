@@ -1,4 +1,4 @@
-# ie11-usual-ployfills
+# ie11-usual-polyfills
 
 #### 介绍
 
@@ -34,26 +34,26 @@
 
 ## 直接从 cdn 导入
 
-https://cdn.jsdelivr.net/npm/@masx200/ie11-usual-ployfills/dist/index.js
+https://cdn.jsdelivr.net/npm/@masx200/ie11-usual-polyfills/dist/index.js
 
 或者
 
-https://unpkg.zhimg.com/@masx200/ie11-usual-ployfills/dist/index.js
+https://unpkg.zhimg.com/@masx200/ie11-usual-polyfills/dist/index.js
 
 ## 本地安装
 
 ```shell
-yarn add @masx200/ie11-usual-ployfills
+yarn add @masx200/ie11-usual-polyfills
 ```
 
 #### 使用说明
 
 ```js
-require("@masx200/ie11-usual-ployfills");
+require("@masx200/ie11-usual-polyfills");
 ```
 
 或者
 
 ```js
-import "@masx200/ie11-usual-ployfills";
+import "@masx200/ie11-usual-polyfills";
 ```

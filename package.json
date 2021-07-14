@@ -1,42 +1,46 @@
 {
-    "publishConfig": {
-        "access": "public",
-        "registry": "https://registry.npmjs.com/"
-    },
-    "name": "@masx200/ie11-usual-ployfills",
-    "version": "1.0.3",
-    "description": "常用的IE11的polyfills",
-    "main": "dist/index.js",
-    "scripts": {
-        "build": "rollup -c rollup.config.js",
-        "format": "prettier --write *.json *.js *.md */*.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://gitee.com/masx200/ie11-usual-ployfills"
-    },
-    "keywords": [],
-    "author": "masx200 <masx200@qq.com>",
-    "license": "ISC",
-    "devDependencies": {
-        "@babel/core": "^7.14.6",
-        "@babel/polyfill": "^7.12.1",
-        "@babel/preset-env": "^7.14.7",
-        "@masx200/webpack-react-vue-spa-awesome-config": "^3.3.7",
-        "@rollup/plugin-babel": "^5.3.0",
-        "@rollup/plugin-commonjs": "^19.0.0",
-        "@rollup/plugin-json": "^4.1.0",
-        "@rollup/plugin-node-resolve": "^13.0.0",
-        "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-        "core-js-pure": "^3.15.2",
-        "element-remove": "^1.0.4",
-        "eslint-scope": "^5.1.1",
-        "event-target-shim": "^6.0.2",
-        "mime-types": "^2.1.31",
-        "multicast-dns-service-types": "^1.1.0",
-        "prettier": "^2.3.2",
-        "rollup": "^2.53.1",
-        "rollup-plugin-remote": "^0.1.0",
-        "rollup-plugin-terser": "^7.0.2"
-    }
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.com/"
+  },
+  "name": "@masx200/ie11-usual-polyfills",
+  "version": "1.0.3",
+  "description": "常用的IE11的polyfills",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "format": "prettier --write *.json *.js *.md */*.js"
+  },
+  "keywords": [],
+  "author": "masx200 <masx200@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.14.7",
+    "@masx200/webpack-react-vue-spa-awesome-config": "^3.3.7",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "core-js-pure": "^3.15.2",
+    "element-remove": "^1.0.4",
+    "eslint-scope": "^5.1.1",
+    "event-target-shim": "^6.0.2",
+    "mime-types": "^2.1.31",
+    "multicast-dns-service-types": "^1.1.0",
+    "prettier": "^2.3.2",
+    "rollup": "^2.53.1",
+    "rollup-plugin-remote": "^0.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masx200/ie11-usual-polyfills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/masx200/ie11-usual-polyfills/issues"
+  },
+  "homepage": "https://github.com/masx200/ie11-usual-polyfills#readme"
 }
