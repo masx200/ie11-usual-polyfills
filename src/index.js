@@ -1,3 +1,4 @@
+import "./object.fromEntries";
 import "element-remove";
 
 import "@babel/polyfill";
