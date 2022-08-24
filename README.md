@@ -38,7 +38,7 @@ https://cdn.jsdelivr.net/npm/@masx200/ie11-usual-polyfills/dist/index.js
 
 或者
 
-https://unpkg.zhimg.com/@masx200/ie11-usual-polyfills/dist/index.js
+https://unpkg.com/@masx200/ie11-usual-polyfills/dist/index.js
 
 ## 本地安装
 
